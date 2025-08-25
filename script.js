@@ -1,6 +1,6 @@
 cost botaoMostraPalavras= document.query Selector('#botao-palavrachave');
 botaoMostraPalavra.addEventListener('click',mostraPalavrasChaves);
-function mostraPalavrasChaves()]{
+function mostraPalavrasChaves(){
     cost texto =document.querySelector('#entrada-de-texto').value;
     cost campoResultado=document.querySelector('#resultado-palavrachave');
     cost palavraChave=processaTexto(texto);
